@@ -1,0 +1,45 @@
+body {
+  padding: 40px 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation__container div {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.navigation__logo {
+  font-family: "Prata", serif;
+}
+
+.navigation__title {
+  margin: 0;
+}
+
+.navigation__links {
+  font-family: "Inter", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation__links li {
+  display: inline;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+// Variables
+
+$font-body: 'Inter', sans-serif;
+$font-header: 'Prata', serif;
+
+
+// Global
+
+body {
+  padding: 40px 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+// Navigation
+
+.navigation__container {
+  display: flex;
+
+  div {
+    flex: auto;
+  }
+}
+
+.navigation__logo {
+  font-family: $font-header;
+}
+
+.navigation__title{
+  margin: 0;
+}
+
+.navigation__links {
+  font-family: $font-body;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+
+    li {
+      display: inline;
+      flex: auto;
+    }
+
+}
