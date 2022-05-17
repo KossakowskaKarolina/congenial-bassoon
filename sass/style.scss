@@ -20,6 +20,15 @@ a {
   text-decoration: none;
 }
 
+.button {
+  max-width: 170px;
+  max-height: 55px;
+  background-color: $color-btn;
+  padding: 20px 30px;
+  text-align: left;
+  color: $color-btn-text;
+  font-family: $font-header;
+}
 
 // Navigation
 
@@ -52,4 +61,8 @@ a {
       flex: auto;
     }
 
+}
+
+.navigation__button {
+  text-align: end;
 }

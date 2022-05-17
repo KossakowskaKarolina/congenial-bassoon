@@ -6,6 +6,16 @@ a {
   text-decoration: none;
 }
 
+.button {
+  max-width: 170px;
+  max-height: 55px;
+  background-color: #fbe850;
+  padding: 20px 30px;
+  text-align: left;
+  color: #000000;
+  font-family: "Prata", serif;
+}
+
 .navigation__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,5 +51,9 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
+}
+
+.navigation__button {
+  text-align: end;
 }
 /*# sourceMappingURL=style.css.map */
