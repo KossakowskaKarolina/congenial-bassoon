@@ -17,6 +17,10 @@ body {
   background: $color-section-prm;
 }
 
+.container {
+  margin: 40px 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -45,7 +49,6 @@ a {
 .navigation__logo {
   font-family: $font-header;
   color: $color-header;
-
 }
 
 .navigation__title{
@@ -64,12 +67,35 @@ a {
       flex: auto;
     }
 
-    a{
+    a {
       color: $color-paragraph;
     }
-
 }
 
 .navigation__button {
   text-align: end;
+}
+
+
+// Header
+
+.header {
+  display: inline-flex;
+
+  div:first-child { flex: 2 }
+  div:last-child { flex: 1 }
+
+}
+
+.header__title {
+  font-family: $font-header;
+  color: $color-header;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-family: $font-body;
+  color: $color-paragraph;
 }
