@@ -10,6 +10,7 @@ $color-section-scd: #2e3038;
 $color-btn: #fbe850;
 $color-btn-text: #000000;
 
+
 // Global
 
 body {
@@ -34,6 +35,7 @@ a {
   color: $color-btn-text;
   font-family: $font-header;
 }
+
 
 // Navigation
 
@@ -84,7 +86,6 @@ a {
 
   div:first-child { flex: 2 }
   div:last-child { flex: 1 }
-
 }
 
 .header__title {
@@ -98,4 +99,15 @@ a {
 .header__subtitle {
   font-family: $font-body;
   color: $color-paragraph;
+}
+
+
+// Logos
+
+.logos__container {
+  display: inline-flex;
+  max-height: 20px;
+  width: 100%;
+
+  img { flex: 1 }
 }
