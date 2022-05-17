@@ -3,7 +3,7 @@
 $font-header: 'Prata', serif;
 $font-body: 'Inter', sans-serif;
 
-$color-header: #ffffff;
+$color-header: #c2c2c2;
 $color-paragraph: #999999;
 $color-section-prm: #0a0a0b;
 $color-section-scd: #2e3038;
@@ -14,6 +14,7 @@ $color-btn-text: #000000;
 
 body {
   padding: 40px 80px;
+  background: $color-section-prm;
 }
 
 a {
@@ -34,6 +35,7 @@ a {
 
 .navigation__container {
   display: flex;
+  background: $color-section-prm;
 
   div {
     flex: auto;
@@ -42,6 +44,8 @@ a {
 
 .navigation__logo {
   font-family: $font-header;
+  color: $color-header;
+
 }
 
 .navigation__title{
@@ -55,10 +59,13 @@ a {
   padding: 0;
   display: flex;
 
-
     li {
       display: inline;
       flex: auto;
+    }
+
+    a{
+      color: $color-paragraph;
     }
 
 }
