@@ -159,4 +159,30 @@ a {
   font-family: "Inter", sans-serif;
   color: #999999;
 }
+
+.about__container {
+  background: #2e3038;
+  padding: 40px 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.about__container div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about__container h2 {
+  font-family: "Prata", serif;
+  color: #c2c2c2;
+  font-size: 34px;
+}
+
+.about__container p {
+  font-family: "Inter", sans-serif;
+  color: #999999;
+}
 /*# sourceMappingURL=style.css.map */

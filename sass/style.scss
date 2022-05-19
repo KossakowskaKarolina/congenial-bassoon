@@ -135,10 +135,13 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
+<<<<<<< Updated upstream
 
   img {
     max-width: 100%;
   }
+=======
+>>>>>>> Stashed changes
 }
 
 .platform__title {
@@ -149,4 +152,29 @@ a {
 .platform__text {
   font-family: $font-body;
   color: $color-paragraph;
+}
+
+
+// About
+
+.about__container {
+  background: $color-section-scd;
+  padding: 40px 140px;
+  display: flex;
+  gap: 60px;
+
+  div {
+    flex: 1;
+  }
+
+  h2 {
+    font-family: $font-header;
+    color: $color-header;
+    font-size: 34px;
+  }
+
+  p {
+    font-family: $font-body;
+    color: $color-paragraph;
+  }
 }
