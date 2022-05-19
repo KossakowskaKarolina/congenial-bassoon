@@ -14,12 +14,12 @@ $color-btn-text: #000000;
 // Global
 
 body {
-  padding: 40px 80px;
+  margin: 0;
   background: $color-section-prm;
 }
 
 .container {
-  margin: 40px 0;
+  padding: 80px 0;
 }
 
 a {
@@ -42,6 +42,7 @@ a {
 .navigation__container {
   display: flex;
   background: $color-section-prm;
+  padding: 80px 140px;
 
   div {
     flex: auto;
@@ -88,6 +89,10 @@ a {
   div:last-child { flex: 1 }
 }
 
+.header__container {
+  padding: 40px 140px;
+}
+
 .header__title {
   font-family: $font-header;
   color: $color-header;
@@ -104,10 +109,15 @@ a {
 
 // Logos
 
+.logos {
+  display: flex;
+}
+
 .logos__container {
   display: inline-flex;
   max-height: 20px;
   width: 100%;
+  padding: 40px 140px;
 
   img { flex: 1 }
 }
@@ -118,6 +128,7 @@ a {
 .platforms__container {
   display: flex;
   gap: 60px;
+  padding: 40px 140px;
 }
 
 .platform {
