@@ -136,9 +136,10 @@ a {
   display: flex;
   flex-direction: column;
 
+  img {
+    max-width: 100%;
   }
-
-
+}
 
 .platform__title {
   font-family: $font-header;
