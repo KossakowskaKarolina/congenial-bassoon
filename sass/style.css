@@ -193,6 +193,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 60px;
 }
 
 .work__container div {
@@ -205,10 +206,12 @@ a {
   font-family: "Prata", serif;
   color: #c2c2c2;
   font-size: 34px;
+  margin: 0;
 }
 
 .work__container p {
   font-family: "Inter", sans-serif;
   color: #999999;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

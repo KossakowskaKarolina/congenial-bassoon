@@ -182,6 +182,7 @@ a {
   background: $color-section-prm;
   padding: 40px 140px;
   display: flex;
+  gap: 60px;
 
   div { flex: 1 }
 
@@ -189,10 +190,12 @@ a {
     font-family: $font-header;
     color: $color-header;
     font-size: 34px;
+    margin: 0;
   }
 
   p {
     font-family: $font-body;
     color: $color-paragraph;
+    margin-bottom: 50px;
   }
 }
