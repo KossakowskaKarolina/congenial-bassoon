@@ -174,3 +174,25 @@ a {
     color: $color-paragraph;
   }
 }
+
+
+// Work
+
+.work__container {
+  background: $color-section-prm;
+  padding: 40px 140px;
+  display: flex;
+
+  div { flex: 1 }
+
+  h2 {
+    font-family: $font-header;
+    color: $color-header;
+    font-size: 34px;
+  }
+
+  p {
+    font-family: $font-body;
+    color: $color-paragraph;
+  }
+}
