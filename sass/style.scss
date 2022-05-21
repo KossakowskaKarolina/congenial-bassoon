@@ -22,6 +22,16 @@ body {
   padding: 80px 0;
 }
 
+h1, h2, h3 {
+  font-family: $font-header;
+  color: $color-header;
+}
+
+p {
+  font-family: $font-body;
+  color: $color-paragraph;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,25 +46,23 @@ a {
   font-family: $font-header;
 }
 
+*__container {
+  padding: 80px 140px;
+}
 
 // Navigation
 
 .navigation__container {
   display: flex;
   background: $color-section-prm;
-  padding: 80px 140px;
+  //padding: 80px 140px;
 
   div {
     flex: auto;
   }
 }
 
-.navigation__logo {
-  font-family: $font-header;
-  color: $color-header;
-}
-
-.navigation__title{
+.navigation__title {
   margin: 0;
 }
 
@@ -94,16 +102,9 @@ a {
 }
 
 .header__title {
-  font-family: $font-header;
-  color: $color-header;
   font-size: 50px;
   font-weight: 200;
   margin: 0;
-}
-
-.header__subtitle {
-  font-family: $font-body;
-  color: $color-paragraph;
 }
 
 
@@ -139,16 +140,6 @@ a {
   img { max-width: 100% }
 }
 
-.platform__title {
-  font-family: $font-header;
-  color: $color-header;
-}
-
-.platform__text {
-  font-family: $font-body;
-  color: $color-paragraph;
-}
-
 
 // About
 
@@ -163,16 +154,10 @@ a {
   }
 
   h2 {
-    font-family: $font-header;
-    color: $color-header;
     font-size: 34px;
     margin: 0;
   }
 
-  p {
-    font-family: $font-body;
-    color: $color-paragraph;
-  }
 }
 
 
@@ -187,15 +172,11 @@ a {
   div { flex: 1 }
 
   h2 {
-    font-family: $font-header;
-    color: $color-header;
     font-size: 34px;
     margin: 0;
   }
 
   p {
-    font-family: $font-body;
-    color: $color-paragraph;
     margin-bottom: 50px;
   }
 }
@@ -208,11 +189,6 @@ a {
   padding: 20px 140px;
   display: flex;
   justify-content: space-between;
-}
-
-.footer__logo {
-  font-family: $font-header;
-  color: $color-header;
 }
 
 .footer__icons {

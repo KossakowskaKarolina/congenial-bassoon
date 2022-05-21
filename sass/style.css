@@ -7,6 +7,16 @@ body {
   padding: 80px 0;
 }
 
+h1, h2, h3 {
+  font-family: "Prata", serif;
+  color: #c2c2c2;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: #999999;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,23 +31,21 @@ a {
   font-family: "Prata", serif;
 }
 
+*__container {
+  padding: 80px 140px;
+}
+
 .navigation__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: #0a0a0b;
-  padding: 80px 140px;
 }
 
 .navigation__container div {
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
-}
-
-.navigation__logo {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
 }
 
 .navigation__title {
@@ -92,16 +100,9 @@ a {
 }
 
 .header__title {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
   font-size: 50px;
   font-weight: 200;
   margin: 0;
-}
-
-.header__subtitle {
-  font-family: "Inter", sans-serif;
-  color: #999999;
 }
 
 .logos {
@@ -150,16 +151,6 @@ a {
   max-width: 100%;
 }
 
-.platform__title {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
-}
-
-.platform__text {
-  font-family: "Inter", sans-serif;
-  color: #999999;
-}
-
 .about__container {
   background: #2e3038;
   padding: 40px 140px;
@@ -176,15 +167,8 @@ a {
 }
 
 .about__container h2 {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
   font-size: 34px;
   margin: 0;
-}
-
-.about__container p {
-  font-family: "Inter", sans-serif;
-  color: #999999;
 }
 
 .work__container {
@@ -203,15 +187,11 @@ a {
 }
 
 .work__container h2 {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
   font-size: 34px;
   margin: 0;
 }
 
 .work__container p {
-  font-family: "Inter", sans-serif;
-  color: #999999;
   margin-bottom: 50px;
 }
 
@@ -224,11 +204,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.footer__logo {
-  font-family: "Prata", serif;
-  color: #c2c2c2;
 }
 
 .footer__icons li {
