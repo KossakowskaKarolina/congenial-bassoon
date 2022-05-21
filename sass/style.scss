@@ -46,20 +46,15 @@ a {
   font-family: $font-header;
 }
 
-*__container {
-  padding: 80px 140px;
-}
 
 // Navigation
 
 .navigation__container {
   display: flex;
   background: $color-section-prm;
-  //padding: 80px 140px;
+  padding: 80px 140px;
 
-  div {
-    flex: auto;
-  }
+  div { flex: auto }
 }
 
 .navigation__title {
@@ -149,15 +144,12 @@ a {
   display: flex;
   gap: 60px;
 
-  div {
-    flex: 1;
-  }
+  div { flex: 1 }
 
   h2 {
     font-size: 34px;
     margin: 0;
   }
-
 }
 
 

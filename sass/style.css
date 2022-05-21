@@ -31,15 +31,12 @@ a {
   font-family: "Prata", serif;
 }
 
-*__container {
-  padding: 80px 140px;
-}
-
 .navigation__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: #0a0a0b;
+  padding: 80px 140px;
 }
 
 .navigation__container div {
