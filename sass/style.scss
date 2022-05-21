@@ -199,3 +199,26 @@ a {
     margin-bottom: 50px;
   }
 }
+
+
+// Footer
+
+.footer__container {
+  background: $color-section-scd;
+  padding: 20px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  font-family: $font-header;
+  color: $color-header;
+}
+
+.footer__icons {
+  li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 5px;
+  }
+}
