@@ -190,3 +190,82 @@ a {
     margin-left: 5px;
   }
 }
+
+
+
+// Media queries
+
+// Tablet view
+
+@media screen and (max-width:1023px) {
+
+  // Global
+
+  .container {
+    padding: 40px 0;
+  }
+
+
+  // Navigation
+
+  .navigation__container {
+    padding: 40px 40px;
+  }
+
+
+  //Header
+
+  .header {
+    display: block;
+  }
+
+  .header__container {
+    padding: 40px 40px;
+  }
+
+
+  // Logos
+
+  .logos__container {
+    padding: 40px 40px;
+  }
+
+
+  // Platforms
+
+  .platforms__container {
+    display: block;
+    padding: 40px 40px;
+
+    div:first-child {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  // About
+
+  .about__container {
+    display: block;
+    padding: 40px 40px;
+  }
+
+
+  // Work
+
+  .work__container {
+    display: block;
+    padding: 40px 40px;
+
+    div:first-child {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  // Footer
+
+  .footer__container {
+    padding: 10px 40px;
+  }
+}

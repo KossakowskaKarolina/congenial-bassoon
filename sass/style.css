@@ -208,4 +208,43 @@ a {
   display: inline;
   margin-left: 5px;
 }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 40px 0;
+  }
+  .navigation__container {
+    padding: 40px 40px;
+  }
+  .header {
+    display: block;
+  }
+  .header__container {
+    padding: 40px 40px;
+  }
+  .logos__container {
+    padding: 40px 40px;
+  }
+  .platforms__container {
+    display: block;
+    padding: 40px 40px;
+  }
+  .platforms__container div:first-child {
+    margin-bottom: 30px;
+  }
+  .about__container {
+    display: block;
+    padding: 40px 40px;
+  }
+  .work__container {
+    display: block;
+    padding: 40px 40px;
+  }
+  .work__container div:first-child {
+    margin-bottom: 30px;
+  }
+  .footer__container {
+    padding: 10px 40px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
