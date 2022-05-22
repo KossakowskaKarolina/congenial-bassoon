@@ -228,6 +228,12 @@ a {
 
   .logos__container {
     padding: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    justify-items: center;
   }
 
 
@@ -267,5 +273,21 @@ a {
 
   .footer__container {
     padding: 10px 40px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  // Logos
+
+  .logos__container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     grid-column-gap: 0px;
+     grid-row-gap: 15px;
+     margin-bottom: 80px;
   }
 }
