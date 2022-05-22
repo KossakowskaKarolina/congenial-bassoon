@@ -161,6 +161,9 @@ a {
   gap: 60px;
 
   div { flex: 1 }
+  div:first-child {
+    margin-bottom: 30px;
+  }
 
   h2 {
     font-size: 34px;
@@ -261,10 +264,6 @@ a {
   .work__container {
     display: block;
     padding: 40px 40px;
-
-    div:first-child {
-      margin-bottom: 30px;
-    }
   }
 
 
