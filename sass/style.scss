@@ -280,6 +280,22 @@ a {
 
 @media screen and (max-width: 767px) {
 
+    // Global padding
+
+    .navigation__container,
+    .header__container,
+    .logos__container,
+    .platforms__container,
+    .about__container,
+    .work__container {
+      padding: 40px 20px;
+    }
+
+    .footer__container {
+      padding: 10px 20px;
+    }
+
+
   // Logos
 
   .logos__container {

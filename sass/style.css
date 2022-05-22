@@ -258,6 +258,17 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .navigation__container,
+  .header__container,
+  .logos__container,
+  .platforms__container,
+  .about__container,
+  .work__container {
+    padding: 40px 20px;
+  }
+  .footer__container {
+    padding: 10px 20px;
+  }
   .logos__container {
     display: -ms-grid;
     display: grid;
