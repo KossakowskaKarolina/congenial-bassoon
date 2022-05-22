@@ -163,7 +163,7 @@ a {
           flex: 1;
 }
 
-.about__container h2 {
+.about__title {
   font-size: 34px;
   margin: 0;
 }
