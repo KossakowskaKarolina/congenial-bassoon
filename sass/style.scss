@@ -275,17 +275,13 @@ a {
 }
 
 
+// Mobile view
 
 @media screen and (max-width: 767px) {
 
     // Global padding
 
-    .navigation__container,
-    .header__container,
-    .logos__container,
-    .platforms__container,
-    .about__container,
-    .work__container {
+    &__container {
       padding: 40px 20px;
     }
 
