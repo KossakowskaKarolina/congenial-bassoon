@@ -273,6 +273,31 @@ a {
     display: grid;
     background-color: transparent;
   }
+  .navigation__hamburger--active {
+    background-color: transparent;
+  }
+  .navigation__hamburger--active .hamburger__bars {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+    -webkit-transition: -webkit-transform 220ms 120ms ease-in-out;
+    transition: -webkit-transform 220ms 120ms ease-in-out;
+    transition: transform 220ms 120ms ease-in-out;
+    transition: transform 220ms 120ms ease-in-out, -webkit-transform 220ms 120ms ease-in-out;
+  }
+  .navigation__hamburger--active .hamburger__bars::before {
+    top: 0;
+    -webkit-transition: top 100ms ease-out;
+    transition: top 100ms ease-out;
+  }
+  .navigation__hamburger--active .hamburger__bars::after {
+    bottom: 0;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: bottom 100ms ease-out, -webkit-transform 220ms 120ms ease-in-out;
+    transition: bottom 100ms ease-out, -webkit-transform 220ms 120ms ease-in-out;
+    transition: bottom 100ms ease-out, transform 220ms 120ms ease-in-out;
+    transition: bottom 100ms ease-out, transform 220ms 120ms ease-in-out, -webkit-transform 220ms 120ms ease-in-out;
+  }
   .hamburger__bars {
     width: 35px;
     height: 2px;
@@ -295,9 +320,17 @@ a {
   }
   .hamburger__bars::before {
     top: -12px;
+    -webkit-transition: top 100ms 250ms ease-in, -webkit-transform 220ms ease-in-out;
+    transition: top 100ms 250ms ease-in, -webkit-transform 220ms ease-in-out;
+    transition: top 100ms 250ms ease-in, transform 220ms ease-in-out;
+    transition: top 100ms 250ms ease-in, transform 220ms ease-in-out, -webkit-transform 220ms ease-in-out;
   }
   .hamburger__bars::after {
     bottom: -12px;
+    -webkit-transition: bottom 100ms 250ms ease-in, -webkit-transform 220ms ease-in-out;
+    transition: bottom 100ms 250ms ease-in, -webkit-transform 220ms ease-in-out;
+    transition: bottom 100ms 250ms ease-in, transform 220ms ease-in-out;
+    transition: bottom 100ms 250ms ease-in, transform 220ms ease-in-out, -webkit-transform 220ms ease-in-out;
   }
   .navigation__links {
     display: -ms-grid;
@@ -306,6 +339,9 @@ a {
   }
   .navigation__links li {
     padding-bottom: 5px;
+  }
+  .navigation__button {
+    display: block;
   }
   .header {
     display: block;
