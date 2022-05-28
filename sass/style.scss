@@ -226,27 +226,23 @@ a {
 
   .navigation__menu {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-row-gap: 25px;
     transition: transform 220ms 120ms ease-in-out;
 
     div:first-child {
-      grid-column-start: 1 ;
-      grid-row-start: 1;
-      align-self: start;
+      grid-area: 1 / 1 / 2 / 2;
       justify-self: end;
+      margin-right: 25px;
     }
 
     div:nth-child(2) {
-      grid-column-start: 2;
-      grid-row-start: 1;
+      grid-area: 2 / 1 / 3 / 2;
     }
 
     div:last-child {
-      grid-column-start: 2;
-      grid-row-start: 2;
+      grid-area: 3 / 1 / 4 / 2;
     }
 
     &--hidden {
@@ -254,6 +250,8 @@ a {
       transition: transform 220ms 120ms ease-in-out;
     }
   }
+
+  // Fix position of hamburger and transition of popping menu !!
 
   .navigation__hamburger {
     display: grid;
